@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "304080254803",
+    "firebase_url": "https://tb-detector.firebaseio.com",
+    "project_id": "tb-detector",
+    "storage_bucket": "tb-detector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304080254803:android:c5a92d0fff15fe8fe313a6",
+        "android_client_info": {
+          "package_name": "com.example.tb_detector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304080254803-08odevaiopnd11hlnng047k5fu53p7tp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tb_detector",
+            "certificate_hash": "335b2fa9d226362025c514bef52a5a7db934ecbd"
+          }
+        },
+        {
+          "client_id": "304080254803-2m126fmhvquf4f2oe93jo69aljdcvcrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANOwm2xHBUuf3kopKayhYA11KkUrDyJTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304080254803-2m126fmhvquf4f2oe93jo69aljdcvcrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

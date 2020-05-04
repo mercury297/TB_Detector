@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:ignore="HardcodedText"
     android:orientation="vertical">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imgPath"
-        android:hint="Image Path "/>
+        android:hint="Image Path "
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Image"
+        android:text="@string/select_image"
         android:onClick="selectImage"/>
 
     <Button
@@ -21,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
         android:onClick="connectServer"
+        android:id="@+id/connectServer"
         android:text="@string/connect_to_server" />
 
     <TextView
@@ -28,5 +32,38 @@
         android:layout_height="wrap_content"
         android:text="@string/message_from_the_server"
         android:id="@+id/responseText" />
+
+    <Button
+        android:id="@+id/addToDB"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Add result to Database" />
+
+    <Button
+        android:id="@+id/goToRecords"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="Check Records" />
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="logout"
+            android:text="LOGOUT" />
+
+    </TableRow>
+
 
 </LinearLayout>

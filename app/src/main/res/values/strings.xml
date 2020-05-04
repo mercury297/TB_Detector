@@ -2,4 +2,8 @@
     <string name="app_name">TB_Detector</string>
     <string name="connect_to_server">Connect to Server</string>
     <string name="message_from_the_server">Message from the Server ...</string>
+    <string name="select_image">Select Image</string>
+    <string name="location">Location</string>
+    <string name="result">Result</string>
+    <string name="check">Check Details</string>
 </resources>
